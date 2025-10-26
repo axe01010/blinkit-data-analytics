@@ -1,55 +1,36 @@
-Blinkit Sales & Performance Dashboard (Power BI)
+# Blinkit Sales & Performance Dashboard (Power BI)
 
-This project, developed by Meghna Choudhry (BBA Analytics), is a comprehensive Power BI dashboard designed to analyze Blinkit's sales, customer, and inventory data. The goal is to unlock actionable insights that support strategic decision-making.
+This repository contains the Blinkit sales, customer and inventory analysis and the Power BI report. The repository is maintained and extended by @axe01010; original analysis and dataset were produced by Meghna Choudhry (credited below).
 
-🚀 Dashboard Preview
+Repository purpose
+- Provide a reproducible Power BI analysis of Blinkit dataset.
+- Offer a clean, customized UI/theme for the report and exportable assets (PDF/PNG).
+- Preserve provenance and make it easy to check for reused analysis.
 
-(Add a screenshot of your dashboard here to showcase the final product.)
+Contents
+- BlinkIT Grocery Data.xlsx — dataset (binary)
+- Blinkit-analysis.pbix — Power BI report (binary)
+- Blinkit Analysis.pdf — exported report (binary)
+- Blinkit-Dashboard.png — dashboard preview image
+- docs/ — documentation and supporting files (LICENSE, AUTHORS.md, CONTRIBUTING.md, etc.)
+- theme/powerbi-theme.json — Power BI theme to apply for consistent visuals
 
-📈 Key Performance Indicators (KPIs)
+Ownership & attribution
+- Maintainer: @axe01010 (2025)
+- Original author: Meghna Choudhry — credited for the original dataset and analysis.
+- If you intend to relicense or republish the original files, obtain explicit permission from the original author.
 
-This analysis tracks core metrics to provide a high-level overview of business health:
+License
+- This repository is licensed under the MIT License. See LICENSE.
 
-Total Sales: $1.20M
+How to apply the new theme & UI updates
+1. Open Blinkit-analysis.pbix in Power BI Desktop.
+2. Import the theme at theme/powerbi-theme.json (Format > Switch Theme > Import theme).
+3. Follow docs/UI_GUIDE.md for step-by-step layout and branding changes.
+4. Export updated report preview to Blinkit-Dashboard.png and replace the old image.
 
-Average Sales: $141
+Contributing
+- See CONTRIBUTING.md and CODE_OF_CONDUCT.md in the repo for contribution guidelines.
 
-Number of Items: 8,523
-
-Average Rating: 3.9 / 5.0
-
-⚙️ Dashboard Features
-
-Filter Panel: Allows users to filter data by outlet location type, outlet size, and item type.
-
-Outlet Establishment Trend: Visualizes the growth of outlet establishments from 2012 to 2022.
-
-Fat Content Analysis: Breaks down sales by low fat and regular fat products.
-
-Item Type Distribution: Shows sales distribution across various product categories.
-
-Outlet Size and Location Analysis: Provides insights on sales performance by outlet size and location tier.
-
-Outlet Type Comparison: Compares different outlet types based on sales, number of items, average sales, ratings, and item visibility.
-
-💡 Insights & Conclusions
-
-Strong overall sales performance with over $1M in total sales.
-
-Consumer preference for low-fat products, indicating health-conscious buying habits.
-
-Fruits, vegetables, and snack foods are the top-selling categories.
-
-Medium-sized outlets in Tier 3 locations show the highest profitability.
-
-While Supermarkets lead in sales, Grocery Stores show superior item visibility, suggesting lessons in assortment strategy that could be applied to larger formats.
-
-🎯 Key Recommendations
-
-Marketing Focus: Capitalize on the low-fat product trend with targeted health-conscious marketing.
-
-Expansion Strategy: Prioritize opening new medium-sized outlets in Tier 3 locations to scale the most profitable model.
-
-Inventory Optimization: Expand high-performing categories (fruits, vegetables, snacks) in underperforming store types.
-
-NOTE: This analysis was conducted by Meghna Choudhry as part of her BBA Analytics curriculum and is for educational purposes only.
+Plagiarism & provenance
+- A Plagiarism_Report.md template is included in docs/ for documentation after you (or I) run the checks and export queries/DAX.
